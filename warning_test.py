@@ -1,5 +1,7 @@
-print("##teamcity[compilationStarted compiler='<compiler_name>']")
+print("##teamcity[compilationStarted compiler='<compiler name>']")
 print("##teamcity[message text='compiler output']")
 print("##teamcity[message text='compiler output']")
 print("##teamcity[message text='warning message' status='WARNING']")
+print("##teamcity[inspectionType id='<id>' name='<name>' description='<description>' category='<category>']")
+print("##teamcity[inspection typeId='<inspection type identity>' message='<instance description>' file='<file path>' line='<line>' additional attribute='<additional attribute>']")
 print("##teamcity[compilationFinished compiler='<compiler name>']")
