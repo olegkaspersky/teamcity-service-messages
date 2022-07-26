@@ -1,0 +1,5 @@
+print("##teamcity[compilationStarted compiler='<compiler_name>']")
+print("##teamcity[message text='compiler output']")
+print("##teamcity[message text='compiler output']")
+print("##teamcity[message text='warning message' status='WARNING']")
+print("##teamcity[compilationFinished compiler='<compiler name>']")
